@@ -1,6 +1,6 @@
 ## <a name="introduction">Introduction</a>
 
-JobFinder is a mobile application that simplifies the job search process by aggregating job listings from multiple third-party APIs. It offers real-time updates,search filters, and an easy application process, making it an essential tool for job seekers.
+JobFinder is a mobile application that simplifies the job search process by aggregating job listings from third-party API. It offers real-time updates,search filters, and an easy application process, making it an essential tool for job seekers.
 
 ## <a name="tech-stack">Tech Stack Used</a>
 
