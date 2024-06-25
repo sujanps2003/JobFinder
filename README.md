@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+## <a name="introduction">Introduction</a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+JobFinder is a mobile application that simplifies the job search process by aggregating job listings from multiple third-party APIs. It offers real-time updates,search filters, and an easy application process, making it an essential tool for job seekers.
 
-## Get started
+## <a name="tech-stack">Tech Stack Used</a>
 
-1. Install dependencies
+- Node.js
+- React Native
+- Axios
+- Expo
+- Stylesheet
 
-   ```bash
-   npm install
-   ```
+## <a name="features">Features</a>
 
-2. Start the app
+👉 **Visually Appealing UI/UX Design**: Develop an aesthetically pleasing user interface using React Native components.
 
-   ```bash
-    npx expo start
-   ```
+👉 **Third Party API Integration**: Fetch data from an external API and seamlessly integrate it into the app.
 
-In the output, you'll find options to open the app in a
+👉 **Search & Pagination Functionality**: Implement search functionality and pagination for efficient data navigation.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+👉 **Custom API Data Fetching Hooks**:Create custom hooks for streamlined and reusable API data fetching.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+👉 **Dynamic Home Page**: Explore diverse jobs from popular and nearby locations across different categories.
 
-## Get a fresh project
+👉 **Browse with Ease on Explore Page**: Page: Navigate through various jobs spanning different categories and types.
 
-When you're ready, run:
+👉 **Detailed Job Insights**: View comprehensive job details, including application links, salary info, responsibilities, and qualifications.
+
+👉 **Tailored Job Exploration**: Find jobs specific to a particular title
+
+👉 **Robust Loading and Error Management**: Ensure effective handling of loading processes and error scenarios.
+
+👉 **Optimized for All Devices**: A responsive design for a seamless user experience across various devices.
+
+## <a name="quick-start">Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run reset-project
+git clone https://github.com/sujanps2003/JobFinder.git
+cd JobFinder
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Installation**
 
-## Learn more
+Install the project dependencies using npm:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Set Up Environment Variables**
 
-## Join the community
+Create a new file named `.env` in the root of your project and add the following content:
 
-Join our community of developers creating universal apps.
+```env
+X-RapidAPI-Key=
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on the [RapidAPI website](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch).
+
+**Running the Project**
+
+```bash
+npx expo start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
